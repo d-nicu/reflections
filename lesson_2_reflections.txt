@@ -6,3 +6,7 @@ The staging area represent the differences between the local directory and the r
 
 How can you use the staging area to make sure you have one commit per logical change?
 One should use git diff to compare the changes between the staging area and the local directory in order to ensure that one commit is made per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches help managing in parallel larger pieces of simultaneous work.
+

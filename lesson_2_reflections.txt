@@ -4,3 +4,5 @@ The metadata is initialized. I need to do it in order to initialie the metadata.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area represent the differences between the local directory and the repository. It offers the change to reciew the changes that have been made before committing them.
 
+How can you use the staging area to make sure you have one commit per logical change?
+One should use git diff to compare the changes between the staging area and the local directory in order to ensure that one commit is made per logical change.

@@ -16,3 +16,6 @@ Diagrams help visualize the branch structure... by mirroring it using directiona
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging two branches together is a commit.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro: saves time
+Con: since git can't semantically understand changes it might unecessarily consider some changes as conflicts.

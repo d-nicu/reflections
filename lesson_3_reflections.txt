@@ -7,4 +7,8 @@ Because I want to pull or push when my local repository is in a valid state; git
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A fork is a copy of a repository; one uses a fork when one wants to start work based on the already existent repository but doesn't want (or can) change the original repository. Also one wants to recognize the work (give credit) to the creator of the original repository.
 A clone is a copy of a repository. Similar to a fork except one doesn't credit the creator of the original work.
-A branch is a copy of a state of the repository; the copy is located internally in the same repository. Branches are used for doing work in parallel on the same repository
+A branch is a copy of a state of the repository; the copy is located internally in the same repository. Branches are used for doing work in parallel on the same repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can diff and merge (continue work) also offline.
+

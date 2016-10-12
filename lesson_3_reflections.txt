@@ -4,3 +4,7 @@ When I want to work on the same repository from two different workstations. Or w
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Because I want to pull or push when my local repository is in a valid state; git might decide to pull a file that I'm currently modifying and as such unnecesasry conflicts mighgt occur.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A fork is a copy of a repository; one uses a fork when one wants to start work based on the already existent repository but doesn't want (or can) change the original repository. Also one wants to recognize the work (give credit) to the creator of the original repository.
+A clone is a copy of a repository. Similar to a fork except one doesn't credit the creator of the original work.
+A branch is a copy of a state of the repository; the copy is located internally in the same repository. Branches are used for doing work in parallel on the same repository

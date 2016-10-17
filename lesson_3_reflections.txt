@@ -12,3 +12,6 @@ A branch is a copy of a state of the repository; the copy is located internally 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can diff and merge (continue work) also offline.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I'd use pull requests in order to ask for code reviews or offer code reviews. It would be easier to work in small teams with small footprint pull requests than working in large teams or with pull requests involving major changes.
+
